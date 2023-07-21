@@ -41,8 +41,7 @@ const Carousel = () => {
               opacity: personIndex === currentPerson ? 1 : 0,
               visibility: personIndex === currentPerson ? 'visible' : 'hidden',
             }}
-            key={id}
-          >
+            key={id}>
             <img src={image} alt={name} className='person-img' />
             <h5 className='name'>{name}</h5>
             <p className='title'>{title}</p>

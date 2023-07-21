@@ -371,8 +371,9 @@ ul {
 .next-slide {
   transform: translateX(200%);
 }
+
 /* Slick Carousel */
-.slick-container{
+.slick-container {
   margin: 0 auto;
   margin-top: 10rem;
   width: 80vw;
